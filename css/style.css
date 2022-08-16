@@ -2,4 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: darkblue;
+    font-size: 16px;
+}
+
+h1 {
+    color: blue;
+    font-size: 20px;
+}
+
+div {
+    width: 600px;
+    background-color: antiquewhite;
+    margin: 10px auto;
+    border: solid 3px salmon;
+    border-radius: 5px;
+}
+
+@media (max-width:450px)
+{
+    div {
+        background-color: brown;
+    }
 }
