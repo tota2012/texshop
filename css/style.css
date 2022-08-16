@@ -16,13 +16,20 @@ h1 {
 }
 
 div {
-    width: 600px;
+    width: 50%;
     background-color: antiquewhite;
     margin: 10px auto;
     border: solid 3px salmon;
     border-radius: 5px;
 }
-
+.flex-index {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex-index img {
+    padding: 15px;
+}
 @media (max-width:450px)
 {
     div {
